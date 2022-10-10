@@ -287,7 +287,7 @@ async def ipinfo(ctx, ip):
 	await ctx.send(infos)
 				
 try:
-	riyx.run(token, bot=False) # NDc1Nzk0OTcwNDM1OTExNzEy.GTLNrw.CDjVMDt-izKe77o_gHdIGpE-mugnds6ViubxMY
+	riyx.run(token, bot=False)
 except Exception as Error:
 	clear()
 	print(f"{a3} {roxo} Error Detectado: {vermelho}{Error}")
