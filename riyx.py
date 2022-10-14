@@ -7,7 +7,7 @@ libs = ("python-discord", "requests", "colorama", "pyfiglet")
 try:
 	import discord, requests, pyfiglet
 	from discord.ext import commands
-	from colorama import Fore
+	from colorama import Fore, init
 except:
 	print("Instalando Bibliotecas, Aguarde!")
 	sleep(1)
@@ -16,7 +16,9 @@ except:
 		
 	import discord, requests, pyfiglet
 	from discord.ext import commands
-	from colorama import Fore
+	from colorama import Fore, init
+	
+init(autoreset=True)
 	
 vermelho = Fore.RED
 verde = Fore.GREEN
